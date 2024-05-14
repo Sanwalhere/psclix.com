@@ -1,0 +1,762 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap");
+body {
+  font: inherit;
+  line-height: 1.5;
+  letter-spacing: normal;
+  font-family: Inter, Helvetica, Arial, system-ui, -apple-system;
+  font-weight: 500;
+  font-size: 16px;
+}
+body {
+  /* CSS Variables that may have been missed get put on body */
+  --tw-border-opacity: 1;
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  --tw-border-opacity: 1;
+  --tw-bg-opacity: 1 !important;
+  --tw-bg-opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0 solid;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+div {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.bhd-mho {
+  display: flex;
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  font-family: Inter, Helvetica, Arial, system-ui, -apple-system;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ewS-s1z {
+  flex: 1 1 0%;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 64px 16px 32px;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .ewS-s1z {
+    padding-bottom: 64px;
+  }
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid;
+}
+
+*,
+:before,
+:after {
+  box-sizing: inherit;
+}
+
+.eqt-qfc {
+  margin: 0px auto;
+  height: 100%;
+  width: 100%;
+  max-width: 580px;
+}
+
+.kzD-281 {
+  margin-top: 32px;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.jlI-fyw {
+  position: fixed;
+  inset: 0px;
+  z-index: -1;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(210, 232, 35);
+  background-image: url("images/endless-constellation.svg");
+}
+
+@media screen and (min-width: 576px) {
+  .jlI-fyw {
+    background-image: url("images/endless-constellation.svg");
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .jlI-fyw {
+    background-image: url("images/endless-constellation.svg");
+  }
+}
+
+.lmp-t2t {
+  min-height: 100dvh;
+}
+
+.fle-pe9 {
+  display: flex;
+}
+
+.col-y1q {
+  flex-direction: column;
+}
+
+.item-jd4 {
+  align-items: center;
+}
+
+.jrD-1qx {
+  margin-top: 32px;
+}
+
+.eEe-jr1 {
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.fYP-vmi {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  font-family: inter;
+  position: absolute;
+  height: auto;
+  bottom: 16px;
+  padding-left: 20px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mb-d9a {
+  margin-bottom: 1rem;
+}
+
+.mx-4ic {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.max-w-i8q {
+  max-width: 100%;
+}
+
+.mt-\[2px\] {
+  margin-top: 2px;
+}
+
+.px-ky1 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.pkA-s2j {
+  position: relative;
+}
+
+.Tmn-9h2 {
+  display: contents;
+}
+
+button {
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  text-transform: none;
+}
+
+button {
+  background-color: initial;
+  background-image: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+#ot--ovf.ot-sdk-show-tko {
+  color: #68b631;
+  border: 1px solid #68b631;
+  height: auto;
+  white-space: normal;
+  word-wrap: break-word;
+  padding: 0.8em 2em;
+  font-size: 0.8em;
+  line-height: 1.2;
+  cursor: pointer;
+  -moz-transition: 0.1s ease;
+  -o-transition: 0.1s ease;
+  -webkit-transition: 1s ease;
+  transition: 0.1s ease;
+}
+
+button#ot--ovf.ot-sdk-show-tko {
+  font-size: 12px;
+  line-height: 1.5;
+  color: inherit;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: inherit;
+  background: none;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 0;
+  padding: 0;
+  border-radius: 0;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.kWo-ot9 button#ot--ovf.ot-sdk-show-tko {
+  font-size: 9px;
+  transition: color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+}
+
+#ot--ovf.ot-sdk-show-tko:hover {
+  color: #fff;
+  background-color: #68b631;
+}
+
+button#ot--ovf.ot-sdk-show-tko:hover {
+  color: inherit;
+  background-color: initial;
+}
+
+.kWo-ot9 button#ot--ovf.ot-sdk-show-tko:hover {
+  color: black;
+}
+
+img {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.flT-nx6 {
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  display: block;
+  object-fit: contain;
+  object-position: initial;
+  filter: none;
+}
+
+h1 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+h1 {
+  margin: 0;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.hJi-jjn {
+  margin: 0px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+h2 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.gEb-ctm {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 576px) {
+  .gEb-ctm {
+    font-size: 16px;
+  }
+}
+
+.cnx-jlb {
+  display: block;
+  position: relative;
+  top: -92px;
+  visibility: hidden;
+}
+
+.PQv-cm5 {
+  position: relative;
+  height: auto;
+}
+
+.eHk-t7e {
+  z-index: 0;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border: none;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Adjust opacity for glassy effect */
+  color: rgb(255, 255, 255);
+  transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3) 0s;
+  border-radius: 50px;
+  backdrop-filter: blur(10px); /* Adjust blur amount as needed */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow for glassy effect */
+}
+
+.eHk-t7e:hover {
+  transform: scale(1.02);
+  background-color: rgba(255, 255, 255, 0.3);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.1); /* Thin white glow */
+  outline: 1px solid rgba(255, 255, 255, 0.4); /* Thin white outline */
+}
+
+.heP-y3v {
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.ldG-9t1 {
+  margin: 0px;
+  border: none;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  text-align: center;
+  cursor: pointer;
+  background: none;
+  text-decoration: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: auto;
+  position: relative;
+  padding: 16px 20px;
+  width: 100%;
+  appearance: none;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.ePF-fgv {
+  hyphens: auto;
+  white-space: normal;
+  background: none;
+  color: inherit;
+  transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s,
+    background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding-left: 66px;
+  padding-right: 66px;
+  min-height: 64px !important;
+}
+
+.ePF-fgv:hover {
+  color: inherit !important;
+}
+
+.abs-d8i {
+  position: absolute;
+}
+
+.bottom-r4z {
+  bottom: 0;
+}
+
+.right-\[6px\] {
+  right: 6px;
+}
+
+.top-2rh {
+  top: 0;
+}
+
+.z-\[1\] {
+  z-index: 1;
+}
+
+.mx-zqq {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.my-aii {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.h-\[40px\] {
+  height: 40px;
+}
+
+.w-\[40px\] {
+  width: 40px;
+}
+
+.justify-xzz {
+  justify-content: center;
+}
+
+.rounded-khb {
+  border-radius: 4rem;
+}
+
+.opacity-wqr {
+  opacity: 0.5;
+}
+
+.tra-dkj {
+  transition-property: color, background-color, border-color, fill, stroke,
+    opacity, box-shadow, transform, filter, -webkit-text-decoration-color,
+    -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+}
+
+@media (min-width: 576px) {
+  .smright-y6g {
+    right: 0.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .lg-d6t {
+    display: none;
+  }
+}
+
+.hover\:bg-white\/10:hover {
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.hoveropacity-7tv:hover {
+  opacity: 1;
+}
+
+@media (min-width: 992px) {
+  .gro-6fo:hover .lggroup-7os {
+    display: flex;
+  }
+}
+
+.rel-n12 {
+  position: relative;
+}
+
+.h-qo9 {
+  height: 3rem;
+}
+
+.w-xec {
+  width: 100%;
+}
+
+.bor-zo7 {
+  border-width: 1px;
+}
+
+.border-d81 {
+  --tw-border-opacity: 1;
+  border-color: rgb(224 226 217 / var(--tw-border-opacity));
+}
+
+.bg-1bh {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.px-9al {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.text-x8r {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.ant-stk {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.outline-rsf {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.duration-6p6 {
+  transition-duration: 75ms;
+}
+
+.ease-f9b {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.hoverborder-4z7:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(246 247 245 / var(--tw-border-opacity));
+}
+
+.hover\:\!bg-white:hover {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+}
+
+.hoverbg-l6a:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 247 245 / var(--tw-bg-opacity));
+}
+
+.h-hgm {
+  height: 100%;
+}
+
+svg {
+  display: block;
+}
+
+span {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.bAq-1cv {
+  left: 8px;
+  width: 46px;
+  height: 46px;
+}
+
+.gog-3z3 {
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+p {
+  margin: 0;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.cxw-9gn {
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.5;
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 576px) {
+  .cxw-9gn {
+    font-size: 16px;
+  }
+}
+
+.fmx-tax {
+  position: relative;
+  hyphens: none;
+}
+
+.block-evc {
+  display: block;
+}
+
+.pr-xzd {
+  padding-right: 0.5rem;
+}
+
+.text-it8 {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.32px;
+}
+
+.font-dyk {
+  font-weight: 600;
+}
+
+.gLx-aoi {
+  border-radius: 0px;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: initial;
+}
+
+.fWC-ec6 {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.edlxyB {
+  fill: currentcolor;
+  line-height: 1;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+}
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-tmvqx.style-tmvqx {
+  font-family: Inter, sans-serif;
+  background-color: rgb(255, 255, 255, 0.75);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
