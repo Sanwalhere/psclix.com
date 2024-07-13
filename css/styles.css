@@ -135,18 +135,18 @@ html {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("/images/endless-constellation.svg");
+  background-image: url("/images/cornered-stairs.svg");
 }
 
 @media screen and (min-width: 576px) {
   .jlI-fyw {
-    background-image: url("/images/endless-constellation.svg");
+    background-image: url("/images/cornered-stairs.svg");
   }
 }
 
 @media screen and (min-width: 767px) {
   .jlI-fyw {
-    background-image: url("/images/endless-constellation.svg");
+    background-image: url("/images/cornered-stairs.svg");
   }
 }
 
