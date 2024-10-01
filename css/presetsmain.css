@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+
+  body {
+    font-family: "Neue Plak Black", Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #000;
+  }
+
+  .main-header {
+    width: 100%;
+    background: #111;
+    padding: 25px 0;
+    position: relative;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .logo img {
+    width: 50px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 0 15px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links a:hover {
+    color: #7aff5f;
+  }
+
+  .subscribe-btn a {
+    display: flex;
+    align-items: center;
+    padding: 6px 8px;
+    padding-right: 16px;
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 15px rgba(236, 72, 153, 0.6),
+      0 0 30px rgba(236, 72, 153, 0.5);
+    margin-right: 15px;
+    outline: none;
+  }
+
+  .subscribe-btn a:hover {
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    box-shadow: 0 0 25px rgba(236, 72, 153, 0.8),
+      0 0 50px rgba(236, 72, 153, 0.6);
+    outline: none;
+  }
+
+  .subscribe-btn a:active {
+    outline: none;
+  }
+
+  .subscribe-btn img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: filter 0.3s ease;
+  }
+
+  .subscribe-btn a:hover img {
+    filter: grayscale(100%);
+  }
+
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+  }
+
+  .nav-links a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+
+  .main-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("header-background.png") no-repeat center center/cover;
+    opacity: 0.2;
+    z-index: -1;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 100%;
+  }
+
+  .grid-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .grid-item:hover .overlay {
+    opacity: 1;
+  }
+
+  .grid-item:hover {
+    box-shadow: none;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 68, 0, 0.486);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 1;
+  }
+
+  .overlay a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: "Neue Plak Black";
+    font-size: 12px;
+  }
+
+  .circle {
+    position: absolute;
+    cursor: default;
+    top: 8px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #4c4c4c;
+    cursor: pointer;
+    z-index: 3;
+    opacity: 70%;
+  }
+  .circle:active {
+    background-color: rgba(255, 255, 255, 0.789);
+    box-shadow: none;
+    outline: none;
+  }
+
+  .circle:hover {
+    transform: scale(1.1);
+    box-shadow: none;
+    outline: none;
+  }
+
+  .circle:hover ~ .overlay {
+    opacity: 0;
+  }
+
+  @media (max-width: 1024px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .btn {
+      font-size: 10px;
+      padding: 5px 8px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .btn {
+      font-size: 12px;
+      padding: 3px 5px;
+      margin: 0 3px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .btn {
+      font-size: 10px;
+      padding: 2px 3px;
+      margin: 0 2px;
+    }
+  }
+
+  .main-header {
+    width: 100%;
+    background: #111;
+    padding: 20px 0;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .logo img {
+    width: 50px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    padding-left: 45px;
+  }
+
+  .nav-links li {
+    margin: 0 10;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .nav-links li a {
+    text-align: center;
+  }
+
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: #ffffff;
+  }
+  .nav-links a:active {
+    outline: none;
+  }
+
+  .profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    z-index: 10;
+  }
+
+  .menu-toggle span {
+    text-transform: uppercase;
+  }
+
+  .side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #1a1a1a;
+    transform: translateX(-250px);
+    transition: 0.3s ease-in-out;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    padding: 33px;
+  }
+
+  .side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+  }
+
+  .side-menu li {
+    margin-bottom: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .side-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+
+  .side-menu a span {
+    color: #e6683c;
+  }
+
+  .side-menu a:hover {
+    color: #e6683c;
+  }
+
+  .side-menu a:hover span {
+    color: #ffffff;
+  }
+
+  .back-btn {
+    background-color: #e6683c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .back-btn:hover {
+    background-color: #972700;
+  }
+
+  .menu-toggle.active,
+  .side-menu.active {
+    transform: translateX(0);
+  }
+
+  .grid-item img {
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .grid-item img.slide-in {
+    transform: translateX(0);
+  }
+
+  .grid-item img.slide-out {
+    transform: translateX(-100%);
+  }
+  h2 {
+    margin-bottom: 5px;
+    color: #e4e4e4;
+    font-size: 21px;
+    font-family: "Neue Plak Black";
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+
+  h2 span {
+    color: #e6683c;
+  }
+
+  .fire-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+
+  .fire {
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    opacity: 100;
+  }
+  @media (max-width: 480px) {
+    .circle {
+      width: 18px;
+      height: 18px;
+    }
+    .fire {
+      width: 23px;
+      height: 23px;
+    }
+    .fire span {
+      font-size: 1.3vw;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    .circle {
+      width: 20px;
+      height: 20px;
+    }
+    .fire {
+      width: 26px;
+      height: 26px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .circle {
+      width: 28px;
+      height: 28px;
+    }
+    .fire {
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .circle {
+      width: 35px;
+      height: 35px;
+    }
+    .fire {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .fire span {
+    position: absolute;
+    font-family: "Neue Plak Black";
+    top: 50%;
+    left: 148%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1vw;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    line-height: 0.99;
+  }
+
+  .fire:hover span {
+    opacity: 1;
+    line-height: 0.99;
+  }
+  .fire:hover ~ .overlay {
+    opacity: 0;
+  }
+  .overlay a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: "Neue Plak Black";
+    font-size: 13px;
+    text-shadow: 0 0 12px rgba(255, 255, 255), 0 0 35px rgba(255, 255, 255),
+      0 0 50px rgba(255, 255, 255), 0 0 70px rgba(255, 255, 255);
+    outline: none;
+    mix-blend-mode: lighten;
+  }
+
+  #header #header-text {
+    color: #fff;
+  }
+
+  #header span {
+    color: #e6683c;
+  }
+  .menu-toggle {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    padding: 10px 15px;
+    border: none;
+    background: none !important;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  .menu-toggle:focus,
+  .menu-toggle:active {
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    transform: translateY(-50%);
+  }
+  .menu-toggle img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .menu-toggle:hover {
+    opacity: 50%;
+    transition: 0.3s;
+  }
