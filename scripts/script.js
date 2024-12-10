@@ -1,5 +1,5 @@
 //const API = "https://localhost:7178";
-const API = "https://sanwalatwork-001-site1.ktempurl.com";
+const API = "https://app-psclix-prod-centralindia-hte6cefwgnhng5dw.centralindia-01.azurewebsites.net";
 
 async function fetchPresets() {
     try {
@@ -20,8 +20,8 @@ function appendPresetsToDOM(items) {
         // Create a new div element
         const gridItem = document.createElement('div');
         gridItem.className = 'grid-item';
-        gridItem.setAttribute('data-before', API + item.beforImageUrl);
-        gridItem.setAttribute('data-after', API + item.afterImageUrl);
+        gridItem.setAttribute('data-before', item.beforImageUrl);
+        gridItem.setAttribute('data-after', item.afterImageUrl);
 
         const fireHtml=item.popular?`<div class="fire">
 <img src="images/fireGlo.png" alt="" />
@@ -30,12 +30,12 @@ function appendPresetsToDOM(items) {
 
         // Set inner HTML with dynamic content
         gridItem.innerHTML = `
-<img src="${API + item.afterImageUrl}" alt="Preset 1" />
+<img src="${item.afterImageUrl}" alt="Preset 1" />
 ${fireHtml}
 <div class="circle">
 <img src="images/beforeandafter.png" alt="" />
 </div>
-<div class="overlay"><a target="_blank" href="${API + item.presetUrl}" download>DOWNLOAD</a></div>
+<div class="overlay"><a target="_blank" href="${item.presetUrl}" download>DOWNLOAD</a></div>
 `;
 
         // Append the new grid item to the container
@@ -93,9 +93,9 @@ function appendWallpapersDOM(items) {
         // Set inner HTML with dynamic content
         
         gridItem.innerHTML = `
-          <img src="${API + item.thumbnailImageUrl}" alt="Image" />
+          <img src="${item.thumbnailImageUrl}" alt="Image" />
           <div class="download-btn">
-            <a target="_blank" href="${API + item.wallpaperImageUrl}" download>DOWNLOAD</a>
+            <a target="_blank" href="${item.wallpaperImageUrl}" download>DOWNLOAD</a>
           </div>
         `;
     
