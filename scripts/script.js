@@ -52,8 +52,8 @@ function attachToggleBeforeAfterEvent(){
           const beforeSrc = gridItem.getAttribute("data-before");
           const afterSrc = gridItem.getAttribute("data-after");
     
-          const cleanBeforeSrc = beforeSrc.split("?")[0];
-          const cleanAfterSrc = afterSrc.split("?")[0];
+          const cleanBeforeSrc = beforeSrc;
+          const cleanAfterSrc = afterSrc;
     
           if (currentSrc.includes(cleanAfterSrc)) {
             img.setAttribute(
